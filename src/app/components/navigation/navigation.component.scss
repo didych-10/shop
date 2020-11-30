@@ -1,4 +1,4 @@
-.nav{
+.nav {
   top: 0;
   left: 0;
   width: 100%;
@@ -6,103 +6,112 @@
   background-color: #24272c;
   color: white;
   position: sticky;
-  .nav__navigation{
+
+  .nav__navigation {
     width: 50%;
     margin-top: 35px;
-    ul{
+
+    ul {
       display: flex;
       justify-content: space-around;
       list-style-type: none;
       font-size: 12px;
-      a{
+
+      a {
         text-decoration: none;
         color: white;
-        &:hover{
+
+        &:hover {
           cursor: pointer;
           color: #e2973f;
           transition: .3s;
         }
-
       }
     }
-
   }
-.nav__contact{
-width: 30%;
-  text-align: center;
-  padding: 10px;
 
+  .nav__contact {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .nav__logo {
+    padding: 20px;
+  }
 }
 
-.nav__logo{
-  padding: 20px;
-}
-
-}
-.wrapper{
+.wrapper {
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-between;
-
-
 }
-@media only screen and (max-width: 1040px){
-.nav{
-  .nav__navigation{
-    ul{
-      font-size: 10px;
+
+@media only screen and (max-width: 1040px) {
+  .nav {
+    .nav__navigation {
+      ul {
+        font-size: 10px;
+      }
     }
   }
 }
-}
-@media only screen and (max-width: 1040px){
-  .nav{
+
+@media only screen and (max-width: 1040px) {
+  .nav {
     position: static;
     height: 300px;
-    .nav__navigation{
+
+    .nav__navigation {
       width: 100%;
-      ul{
+
+      ul {
         font-size: 12px;
       }
     }
-    .nav__logo{
-      width: 40%;
-      margin: auto;
 
+    .nav__logo {
+      width: auto;
+      margin: auto;
     }
-    .nav__contact{
+
+    .nav__contact {
       width: 100%;
     }
   }
-.wrapper{
-  width: 50%;
-  flex-direction: column;
+
+  .wrapper {
+    width: 50%;
+    flex-direction: column;
+  }
 }
 
-}
-@media only screen and (max-width: 780px){
-  .wrapper{
-    width:65%;
+@media only screen and (max-width: 780px) {
+  .wrapper {
+    width: 65%;
   }
 }
-@media only screen and (max-width: 620px){
-  .wrapper{
-    width:75%;
+
+@media only screen and (max-width: 620px) {
+  .wrapper {
+    width: 75%;
   }
 }
-@media only screen and (max-width: 555px){
-  .wrapper{
-    width:90%;
+
+@media only screen and (max-width: 555px) {
+  .wrapper {
+    width: 90%;
   }
 }
-@media only screen and (max-width: 480px){
-  .wrapper{
-    width:100%;
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    width: 100%;
   }
-  .nav{
-    .nav__navigation{
-      ul{
+  .nav {
+    .nav__navigation {
+      ul {
         font-size: 10px;
       }
     }
