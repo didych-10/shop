@@ -41,7 +41,7 @@
   }
 }
 
-.wrapper {
+.container {
   width: 80%;
   margin: auto;
   display: flex;
@@ -81,32 +81,32 @@
     }
   }
 
-  .wrapper {
+  .container {
     width: 50%;
     flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 780px) {
-  .wrapper {
+  .container {
     width: 65%;
   }
 }
 
 @media only screen and (max-width: 620px) {
-  .wrapper {
+  .container {
     width: 75%;
   }
 }
 
 @media only screen and (max-width: 555px) {
-  .wrapper {
+  .container {
     width: 90%;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .wrapper {
+  .container {
     width: 100%;
   }
   .nav {
